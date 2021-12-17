@@ -31,6 +31,7 @@ public class GameConfig extends Service {
         FileConfiguration config = this.plugin.getConfig();
         this.themes.clear();
         this.themes.addAll(config.getStringList("themes"));
+        this.buildingRegions.values().forEach(BuildingRegion::unregister);
         this.buildingRegions.clear();
         ConfigurationSection regions = config.getConfigurationSection(
             "regions");

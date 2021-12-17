@@ -1,16 +1,3 @@
-#width = 30
-#floor = bedrock, then blue concrete, then 2 picked layers
-
-#+x 2
-#-z 4
-
-#0 0 -16
-themes:
-  - axolotl
-  - tree
-  - baby yoda
-  - skate park
-  - pong
 regions:
   blue:
     min_x: 0
@@ -50,21 +37,21 @@ regions:
   cyan:
     min_x: 32
     min_y: 0
-    min_z: -48
+    min_z: -80
     max_x: 63
     max_y: 100
     max_z: -49
   white:
     min_x: 0
     min_y: 0
-    min_z: -80
+    min_z: -112
     max_x: 31
     max_y: 100
-    max_z: -112
+    max_z: -81
   magenta:
     min_x: 32
     min_y: 0
-    min_z: -48
+    min_z: -112
     max_x: 63
     max_y: 100
     max_z: -81
